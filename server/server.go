@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/NYTimes/gziphandler"
-	"github.com/HashHackerAds/cloud-torrent/engine"
-	"github.com/HashHackerAds/cloud-torrent/static"
+	"github.com/ramyakmehra/torrent1/engine"
+	"github.com/ramyakmehra/torrent1/static"
 	"github.com/jpillora/cookieauth"
 	"github.com/jpillora/requestlog"
 	"github.com/jpillora/scraper/scraper"
