@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/HashHackerAds/cloud-torrent/server"
+	"github.com/ramyakmehra/torrent1/server"
 	"github.com/jpillora/opts"
 )
 
@@ -11,7 +11,7 @@ var VERSION = "0.0.0-src" //set with ldflags
 
 func main() {
 	s := server.Server{
-		Title:      "PBF Cloud",
+		Title:      "torrent1",
 		Port:       3000,
 		ConfigPath: "cloud-torrent.json",
 	}
